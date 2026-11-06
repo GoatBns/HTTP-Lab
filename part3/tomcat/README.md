@@ -8,3 +8,13 @@
 
 !\[Sample app](sample-home.png)
 
+
+
+\- Step 21: `hello.jsp` modified with a scriptlet (`<% ... %>`) and expressions (`<%= ... %>`);
+
+&#x20; the date changes at each reload, so the code runs on the server.
+
+
+
+!\[hello.jsp](sample-hello.png)
+
