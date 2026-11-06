@@ -161,8 +161,30 @@ Nginx is mainly used as a web server for static content and can also work as a r
 Tomcat is a Java application server that runs Java Servlets and JSP pages to generate dynamic content.
 
 They can work together, with Nginx receiving HTTP requests and forwarding dynamic requests to Tomcat.
+## 10. Project Structure
 
-## 10. Conclusion
+The project is organized into different folders to separate the source code, executable file, server examples, and lab report.
+
+```text
+HTTP-Lab/
+├── src/
+│   └── HttpClient.java
+├── dist/
+│   └── HttpClient.jar
+├── part3/
+│   ├── nginx/
+│   │   └── hello.html
+│   └── tomcat/
+│       └── hello.jsp
+├── report/
+│   └── Java_Lab1.pdf
+├── README.md
+└── .gitignore
+```
+
+The `src` folder contains the Java source code, while `dist` contains the executable JAR file. The `part3` folder includes our Nginx and Tomcat examples, and `report` contains the lab report.
+
+## 11. Conclusion
 
 This lab helped us understand HTTP communication from both the client and server sides.
 
